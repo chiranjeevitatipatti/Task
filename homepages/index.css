@@ -1,0 +1,97 @@
+#border{
+	
+	 border: mediumaquamarine;
+	 background-color:rosybrown;
+	 width: 1450px;
+  height: 1000px;
+  border: 5px solid FF66CC;
+  padding: 50px;
+  margin: 20px;
+}
+
+
+
+
+
+
+ .extra{
+	 background-color:powderblue;
+  width: 200px;
+  height: 300px;
+  border: 5px solid lightblue;
+  padding: 50px;
+  margin: 20px;
+}
+#filter{
+	background-color: darkgray;
+  width: 200px;
+  border: 5px solid gray;
+  padding: 50px;
+  margin: 20px;
+
+}
+.hobbies{
+	background-color: honeydew;
+  width: 200px;
+  border: 5px solid white;
+  padding: 50px;
+  margin: 20px;
+}
+
+
+
+.parent1{
+	display: flex;
+}
+#carrier{
+	 border: 2px solid red;
+  
+  border-radius: 10px;
+  background-color: mistyrose;
+  width: 1000px;
+  border: 5px solid mistyrose;
+  padding: 25px;
+  margin: 20px;
+}
+.objective{
+	 background-color: wheat ;
+  width: 900px;
+	height: 130px;
+  border: 5px solid wheat;
+  padding: 20px;
+  margin: 20px;
+
+}
+.edu{
+	 background-color: lightblue;
+  width: 900px;
+  height: 200px;
+  border: 5px solid lightblue;
+  padding: 20px;
+  margin: 20px;
+
+}
+table,th,td {
+  border :  1px solid black;
+  border-collapse: collapse;
+}
+
+#project{
+	background-color:gold;
+  width: 900px;
+   height: 130px;
+  border: 5px solid gold;
+  padding: 20px;
+  margin: 20px;
+	
+}
+#description{
+	background-color: lightgreen;
+  width: 900px;
+  height: 130px;
+  border: 5px solid lightgreen;
+  padding: 20px;
+  margin: 20px;
+}
+
+  

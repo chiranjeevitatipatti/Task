@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport"  content="width=device-width intial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<style type="text/css">
+		.jumbotron{
+			background-color: lightgray;
+			margin-top: 60px;
+			margin-left: 400px;
+			margin-bottom: 40px;
+			margin-right: 350px;
+			
+width: 400px;
+height: 480px;
+ 
+}
+button {
+  color: white;
+  padding: 14px 20px;
+  margin: 15px 0;
+  border: white;
+  margin-left:80px;
+  width: 50%;
+}
+
+
+
+.container{
+
+	 padding: 16px;
+}
+
+
+.img{
+	  text-align: center;
+  margin: 30px 0 15px 0;
+}
+@media only screen and (max-width: 425px){
+	.jumbotron{
+		margin-top: 150px;
+		margin-left: 10px;
+}
+
+</style>
+
+</head>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<body>
+	<div class="jumbotron" >
+		
+<form class="from-group" method="GET" action="index.html">
+
+	<div class="img">
+    <img src="img1.jpg" alt="Avatar" class="avatar" width="70px" height="70px" style="border-color: blue; ">
+  </div>
+	<div class="container">
+
+	<label>Email 
+	id</label>
+	<input type="email" class="form-control" name="search" placeholder="Enter the Email" required="" autocomplete="off">
+	<label>Password</label>
+	<input type="password" class="form-control" placeholder="Enter the Password">
+
+	<button type ="submit" class="btn btn-primary">Login</button>
+	<button type ="button" class="btn btn-success">Cancel</button>
+	
+	
+    
+  
+  
+</div>
+</form>
+</div>
+</body>
+</html>
